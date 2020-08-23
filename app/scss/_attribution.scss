@@ -1,0 +1,17 @@
+.attribution {
+  padding: 1rem;
+  margin: 0 auto;
+  color: $grayishBlue;
+  text-align: center;
+
+  a {
+    text-decoration: none;
+    font-weight: bold;
+    color: $paleBlue;
+    transition: color 300ms;
+
+    &:hover {
+      color: white;
+    }
+  }
+}
